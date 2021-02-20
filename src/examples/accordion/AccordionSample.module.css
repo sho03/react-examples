@@ -1,3 +1,34 @@
 .container {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 500px;
+  background-color: white;
+  padding: 30px 0;
+}
 
+.faq{
+  margin-bottom: 30px;
+  background-color: silver;
+}
+
+.faqOpened {
+  margin-bottom: 30px;
+  background-color: silver;
+}
+
+.contentContainer {
+  padding: 25px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.prefix {
+  padding: 10px 8px;
+  color: green;
+}
+
+.mainArea {
+  padding: 10px 8px;
 }
