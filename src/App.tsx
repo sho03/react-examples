@@ -4,11 +4,13 @@ import './App.css';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { AccordionSample } from './examples/accordion/AccordionSample';
 import { Home } from './examples/Home';
+import { Header } from './examples/components/Header';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header/>
         <Switch>
           <Route exact path ="/Accordion">
             <AccordionSample />
