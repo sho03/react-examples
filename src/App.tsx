@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { AccordionSample } from './examples/accordion/AccordionSample';
 import { Home } from './examples/Home';
 import { Header } from './examples/components/Header';
+import { StateAndEffectExample } from './examples/hooks/stateAndEffect/StateAndEffectExample';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path ="/Accordion">
-            <AccordionSample />
+            <AccordionSample/>
+          </Route>
+          <Route exact path ="/UseStateAndUseEffectExample">
+            <StateAndEffectExample/>
           </Route>
           <Route>
             <Home/>
