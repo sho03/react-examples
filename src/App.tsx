@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { AccordionSample } from './examples/accordion/AccordionSample';
 import { Home } from './examples/Home';
 import { Header } from './examples/components/Header';
 import { StateAndEffectExample } from './examples/hooks/stateAndEffect/StateAndEffectExample';
+import Main from './examples/hooks/useContext/Main';
 
 function App() {
   return (
@@ -18,6 +17,9 @@ function App() {
           </Route>
           <Route exact path ="/UseStateAndUseEffectExample">
             <StateAndEffectExample/>
+          </Route>
+          <Route exact path ="/UseContextExample">
+            <Main/>
           </Route>
           <Route>
             <Home/>
