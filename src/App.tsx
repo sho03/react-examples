@@ -6,6 +6,7 @@ import { AccordionSample } from './examples/accordion/AccordionSample';
 import { Home } from './examples/Home';
 import { Header } from './examples/components/Header';
 import { StateAndEffectExample } from './examples/hooks/stateAndEffect/StateAndEffectExample';
+import MemoSample from './examples/hooks/usememo/MemoSample';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path ="/UseStateAndUseEffectExample">
             <StateAndEffectExample/>
+          </Route>
+          <Route exact path ="/UseMemoSample">
+            <MemoSample/>
           </Route>
           <Route>
             <Home/>

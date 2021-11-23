@@ -16,6 +16,11 @@ export function Home() {
           useState and useEffect example
         </Link>
       </li>
+      <li>
+        <Link to={"/UseMemoSample"}>
+          useMemo sample
+        </Link>
+      </li>
     </ul>
   </div>
 }
