@@ -21,6 +21,11 @@ export function Home() {
           useMemo sample
         </Link>
       </li>
+      <li>
+        <Link to={"/graph"}>
+          Recharts sample
+        </Link>
+      </li>
     </ul>
   </div>
 }
