@@ -21,6 +21,15 @@ export function Home() {
           useContext Example
         </Link>
       </li>
+      <li>
+        <Link to={"/UseMemoSample"}>
+          useMemo sample
+        </Link>
+      </li>
+      <li>
+        <Link to={"/graph"}>
+        </Link>
+      </li>
     </ul>
   </div>
 }

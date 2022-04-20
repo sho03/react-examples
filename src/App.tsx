@@ -5,6 +5,8 @@ import { Home } from './examples/Home';
 import { Header } from './examples/components/Header';
 import { StateAndEffectExample } from './examples/hooks/stateAndEffect/StateAndEffectExample';
 import Main from './examples/hooks/useContext/Main';
+import MemoSample from './examples/hooks/usememo/MemoSample';
+import { Graph } from './examples/recharts_sample/Graph';
 
 function App() {
   return (
@@ -21,12 +23,17 @@ function App() {
           <Route exact path ="/UseContextExample">
             <Main/>
           </Route>
+          <Route exact path ="/UseMemoSample">
+            <MemoSample/>
+          </Route>
+          <Route exact path ="/graph">
+            <Graph/>
+          </Route>
           <Route>
             <Home/>
           </Route>
         </Switch>
       </BrowserRouter>
-      
     </div>
   );
 }
