@@ -28,6 +28,12 @@ export function Home() {
       </li>
       <li>
         <Link to={"/graph"}>
+          graph
+        </Link>
+      </li>
+      <li>
+        <Link to={"/keyError"}>
+          keyError
         </Link>
       </li>
     </ul>
