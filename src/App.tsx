@@ -8,6 +8,7 @@ import Main from './examples/hooks/useContext/Main';
 import MemoSample from './examples/hooks/usememo/MemoSample';
 import { Graph } from './examples/recharts_sample/Graph';
 import { KeyErrorTest } from './examples/keyErrorTest/KeyErrorTest';
+import { CodeMirrorExample } from './examples/codeMirrorExample/CodeMirrorExample';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route exact path ="/keyError">
             <KeyErrorTest/>
+          </Route>
+          <Route exact path ="/codeMirror">
+            <CodeMirrorExample/>
           </Route>
           <Route>
             <Home/>

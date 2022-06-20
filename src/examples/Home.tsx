@@ -36,6 +36,11 @@ export function Home() {
           keyError
         </Link>
       </li>
+      <li>
+        <Link to={"/codeMirror"}>
+          codeMirror
+        </Link>
+      </li>
     </ul>
   </div>
 }
