@@ -41,6 +41,11 @@ export function Home() {
           codeMirror
         </Link>
       </li>
+      <li>
+        <Link to={"/inputEvents"}>
+          inputEvents
+        </Link>
+      </li>
     </ul>
   </div>
 }

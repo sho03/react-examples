@@ -9,6 +9,7 @@ import MemoSample from './examples/hooks/usememo/MemoSample';
 import { Graph } from './examples/recharts_sample/Graph';
 import { KeyErrorTest } from './examples/keyErrorTest/KeyErrorTest';
 import { CodeMirrorExample } from './examples/codeMirrorExample/CodeMirrorExample';
+import InputEvents from './examples/inputEvents/InputEvents';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route exact path ="/codeMirror">
             <CodeMirrorExample/>
+          </Route>
+          <Route exact path ="/inputEvents">
+            <InputEvents/>
           </Route>
           <Route>
             <Home/>
