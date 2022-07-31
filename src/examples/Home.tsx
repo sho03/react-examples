@@ -46,6 +46,11 @@ export function Home() {
           inputEvents
         </Link>
       </li>
+      <li>
+        <Link to={"/hookForm"}>
+          React Hook Form
+        </Link>
+      </li>
     </ul>
   </div>
 }

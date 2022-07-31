@@ -10,6 +10,7 @@ import { Graph } from './examples/recharts_sample/Graph';
 import { KeyErrorTest } from './examples/keyErrorTest/KeyErrorTest';
 import { CodeMirrorExample } from './examples/codeMirrorExample/CodeMirrorExample';
 import InputEvents from './examples/inputEvents/InputEvents';
+import HookFormExample from './examples/react-hook-form/HookFormExample';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route exact path ="/inputEvents">
             <InputEvents/>
+          </Route>
+          <Route exact path ="/hookForm">
+            <HookFormExample/>
           </Route>
           <Route>
             <Home/>
