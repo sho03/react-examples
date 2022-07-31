@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { AccordionSample } from "./accordion/AccordionSample";
 
 export function Home() {
   return <div>

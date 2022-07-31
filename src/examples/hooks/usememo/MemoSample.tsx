@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from 'react'
+import React, { useState } from 'react'
 
 // this code based on link below.
 // https://qiita.com/seira/items/42576765aecc9fa6b2f8

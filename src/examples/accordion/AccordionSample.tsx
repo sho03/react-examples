@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./AccordionSample.module.css";
 import Collapsible from "react-collapsible";
 
@@ -46,10 +45,4 @@ function Answer(props: AnswerProps) {
 
 type AnswerProps = {
   text: string
-}
-
-function easiestAccordion(){
-  return <Collapsible trigger={"click me!!"}>
-    This is easiest Accordion!!
-  </Collapsible>
 }
